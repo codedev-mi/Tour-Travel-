@@ -1,0 +1,55 @@
+/* Global reset & base styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Poppins", system-ui, sans-serif;
+  background: #f8fafc;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #023e8a;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+} */
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f3ef;
+  color: #1b4332;
+  scroll-behavior: smooth;
+}
