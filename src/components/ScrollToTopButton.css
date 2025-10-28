@@ -1,0 +1,71 @@
+/* .scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  z-index: 999;
+}
+
+.scroll-top:hover {
+  background: #023e8a;
+} */
+
+
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  z-index: 999;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.scroll-top:hover {
+  transform: translateY(-6px) rotate(10deg);
+  background: linear-gradient(135deg, #023e8a, #0096c7);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Fade animation when appearing */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Floating animation for fun */
+.animated-btn {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
